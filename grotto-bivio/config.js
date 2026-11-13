@@ -133,7 +133,7 @@ window.SITE = {
     },
     {
       "title": "Sulla cantonale",
-      "text": "Facile da trovare, con parcheggio, tra Curio e Novaggio."
+      "text": "Facile da trovare, all'incrocio tra Curio e Novaggio."
     },
     {
       "title": "Per i gruppi",

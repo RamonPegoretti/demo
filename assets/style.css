@@ -164,3 +164,14 @@ em{font-style:italic;color:var(--accent)}
 
 @media (prefers-reduced-motion:reduce){*,*::after{transition:none!important;animation:none!important}.t-lit{-webkit-mask-image:none;mask-image:none}.t-base{display:none}}
 .page-hero .eyebrow{margin-bottom:18px}
+
+/* where we are */
+.where{padding:clamp(90px,16vh,200px) var(--gut);display:grid;gap:40px;order:6;border-top:1px solid var(--line)}
+@media(min-width:900px){.where{grid-template-columns:4fr 8fr;align-items:center;gap:clamp(48px,6vw,110px)}}
+.where-text .h2{margin:16px 0 22px}
+.where-addr{font-size:18px;color:var(--ink)}
+.where-note{color:var(--ink-2);margin:12px 0 30px;max-width:38ch}
+.where-map{position:relative;aspect-ratio:4/3;border-radius:4px;overflow:hidden;background:var(--ph);border:1px solid var(--line)}
+@media(min-width:900px){.where-map{aspect-ratio:16/10}}
+.where-map iframe{position:absolute;inset:0;width:100%;height:100%;border:0;filter:invert(.92) hue-rotate(180deg) saturate(.5) brightness(.95) contrast(.9)}
+.where-map::after{content:"";position:absolute;inset:0;pointer-events:none;background:var(--accent);mix-blend-mode:color;opacity:.18}
