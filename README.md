@@ -11,6 +11,9 @@ Live: https://ramonpegoretti.github.io/demo/
 | Grotto Rossi, Castelrotto | `grotto-rossi/` | Facebook only |
 | Ristorante Unione, Sessa | `ristorante-unione/` | None |
 | Grotto Bivio, Curio | `grotto-bivio/` | None (Hotmail address) |
+| Pizzeria da Renato, Magliaso | `pizzeria-da-renato/` | Dated TYPO3 site (© 2020), German first (redesign pitch) |
+| Grotto degli Amici, Villa Luganese | `grotto-degli-amici/` | Template site with leftover placeholder captions, no menu (redesign pitch) |
+| Albergo della Posta, Astano | `albergo-della-posta/` | Decent WordPress site, mixed IT/DE text, conflicting hours (restaurant-page pitch) |
 
 ## Structure
 - `assets/` — shared engine (`core.js`), cinematic `style.css` and `motion.js`
@@ -31,5 +34,11 @@ Sources: listings on ticino.ch, luganoregion.com, myswitzerland.com, search.ch, 
 **Ristorante Unione** — confirmed: fam. Sigrist (Thomas), no fixed menu, polenta on the fire, own wine, pergola with stone tables, rooms, closed Wednesday, 11:00–23:30. Dishes from reviews. *Estimated:* prices.
 
 **Grotto Bivio** — confirmed: address, phone, email, gamberoni al vino bianco, ground-floor room. *Estimated:* hours, rest of the menu and prices.
+
+**Pizzeria da Renato** — real menu and prices from the July 2025 menu PDF on darenato.ch; hours (Tue closed), since 1994, take-away/delivery, saletta, terrace. Nothing estimated except the photo captions.
+
+**Grotto degli Amici** — confirmed: since 1846, hours (winter/summer), 40 seats + veranda with fireplace, terrace, parking, bus 461, Ticinese/Swiss/Italian/Sardinian cooking, cordon bleu. *Estimated:* the whole menu and all prices (the site shows none).
+
+**Albergo della Posta** — real menu and prices from the autumn 2026 menu PDF on posta-astano.ch; since 1888, Swiss Historic Hotels, ICOMOS 2005, pool, tennis. *Estimated:* restaurant hours (the site contradicts itself).
 
 **Photos:** all slots show the designed placeholder ("Qui: …"). Take your own photos on the visit, or ask the owner for theirs, then set `photos.*.src` in config.js.
